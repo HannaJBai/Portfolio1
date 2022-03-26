@@ -1,10 +1,41 @@
-
+:root{
+    --branding-color: papayawhip;
+    --heading-font-family: 'Poppins'
+}
 
 h1{
     color: rgb(21, 21, 65);
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--heading-font-family);
+    font-size: 75px; 
 }
 
 p{
     font-family: 'Poppins , sans-serif';
+}
+
+.hero {
+    background-color: palevioletred;
+    text-align: center;
+    padding: 160px 20px;
+}
+
+.hero p{
+    font-size: 36px;
+    font-family: 'Poppins';
+    font-weight: bold;
+    margin: 0;
+}
+
+.hero h2{
+    font-family: 'Poppins';
+    font-weight: normal;
+    font-size: 24px
+}
+
+.btn-branding{
+    background: var(--branding-color);
+    border-radius: 4px;
+    color: rgb(248, 132, 151);
+    font-family: 'Poppins';
+    padding: 15px 30px;
 }
